@@ -8,7 +8,7 @@ public class ConnectMysql {
 	
 	private final static String driver = "com.mysql.jdbc.Driver";
 	private final static String username = "root";
-	private final static String password = "Deskmate2314";
+	private final static String password = "harry13424";
 	
 	public static Connection connect(){
 		Connection conn = null;
