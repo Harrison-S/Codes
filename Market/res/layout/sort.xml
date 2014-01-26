@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout_things"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">"
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="188dp"
+        android:layout_weight="0.46" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/c" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_height="188dp"
+        android:layout_width="fill_parent" >"
+
+        <TextView
+            android:id="@+id/textView_goods"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="这是货物的详细信息" />
+           
+    </LinearLayout>
+</LinearLayout>
